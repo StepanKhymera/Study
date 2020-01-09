@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/Lab5_2.dir/main.c.o CMakeFiles/Lab5_2.dir/function2.c.o  -o Lab5_2 -lm 
