@@ -1,0 +1,27 @@
+Laboratory works from 1 to 6 are focused on sorting algorithms. 
+When I started working on them I knew I would need to gather all 
+6 different algorithms into one project for lab #7. 
+To save me some time in future I was adding classes for each 
+algorithm  to one project from the beginning.
+
+Here are the tasks for labs 1-6:
+
+1.	Implement and understand bubble sort with a flag.
+2.	Implement and understand select sort.
+3.	Implement and understand Shell sort (as a sub algorithm I used select sort).
+4.	Implement and understand quick sort.
+5.	Implement and understand merge sort.
+6.	Implement and understand count sort.
+
+Lab 7 was dedicating to find the most efficient sorting 
+algorithm among them. 
+Some requirements for lab #7 project:
+
+1.	Each sorting method is implemented in a separate class.
+2.	All 6 sorting method will sort the same 3 arrays of different sizes, 
+	which are randomly generated (true random!).
+3.	The program must allow access to all 3 unsorted and all 18 sorted  arrays.
+4.	The time measured from each sorting is stored in one table.
+5.	Program builds a graph using data in the table. In the graph array 
+	size is on the horizontal axis and sorting time on vertical one. 
+	Each sorting method represented by a different colored line.

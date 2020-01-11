@@ -1,0 +1,1 @@
+Implement linear search	to find the max element (or elements) in an array and output it's index. 
