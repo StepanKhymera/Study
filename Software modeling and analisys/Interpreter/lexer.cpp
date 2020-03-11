@@ -14,7 +14,6 @@ QString Lexer::BREAK_DOWN(QString data){
 
     for (int i = 0; i < lines.size(); ++i) {
         auto a_line = lines[i].split(" ",QString::SplitBehavior::SkipEmptyParts);
-//        tokens[i].resize(a_line.size());
         for (int word = 0;word < a_line.size();++word){
             (*tokens)[i].push_back( new Token(a_line[word]));
             output.append("< "+ (*tokens)[i][word]->tag + " ; " + (*tokens)[i][word]->value + " >\n");

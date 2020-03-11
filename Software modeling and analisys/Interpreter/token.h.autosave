@@ -10,7 +10,7 @@ class Token
 public:
     QString tag;
     QString value;
-
+    Token();
     Token(QString lexem);
 };
 #endif // TOKEN_H

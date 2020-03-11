@@ -49,15 +49,18 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;}&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_2">
+   <widget class="QTreeView" name="treeView">
     <property name="geometry">
      <rect>
-      <x>590</x>
-      <y>10</y>
-      <width>401</width>
-      <height>591</height>
+      <x>550</x>
+      <y>30</y>
+      <width>481</width>
+      <height>511</height>
      </rect>
     </property>
+    <attribute name="headerVisible">
+     <bool>false</bool>
+    </attribute>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">

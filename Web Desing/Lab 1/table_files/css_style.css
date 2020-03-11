@@ -4,6 +4,23 @@
 	height: 90%;
 }
 
+ul{
+  display: inline;
+}
+#menu-head{
+		display: inline-block;
+	width: 10%;
+}
+
+.menu-item{
+	display: inline-block;
+	width: 10%;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
 body {
 	margin: 0;
 }

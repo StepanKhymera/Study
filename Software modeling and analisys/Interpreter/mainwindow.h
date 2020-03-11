@@ -3,6 +3,12 @@
 
 #include <QMainWindow>
 
+
+#include <QTreeView>
+#include <QStandardItemModel>
+#include <QStandardItem>
+
+
 #include "lexer.h"
 namespace Ui {
 class MainWindow;
@@ -21,6 +27,8 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+    QStandardItemModel model;
+
 };
 
 #endif // MAINWINDOW_H

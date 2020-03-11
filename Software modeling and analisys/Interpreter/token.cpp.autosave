@@ -5,6 +5,10 @@ static QList<QString> keywords = {"if","while","tag"};
 
 static QList<QString> functions = {"open","find_all","find_f"};
 
+Token::Token(){
+    
+}
+
 Token::Token(QString lexem)
 {
     value = lexem;

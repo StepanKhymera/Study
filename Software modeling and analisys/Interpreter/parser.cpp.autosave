@@ -1,0 +1,36 @@
+#include "parser.h"
+
+Parser::Parser()
+{
+    
+}
+
+
+void Parser::parse(){    
+    QVector<Token*> line;     
+    for(int i = 0; i > tokens.size(); ++i){
+        line = tokens[i];
+        if(line[0]->tag == "var_type"){ //declaration or init
+            if( line.size() > 2){
+                //init
+            } else {
+                //dec
+//                this->tree.append();
+            }
+        }
+        if(line[0]->tag == "functions"){
+            //case with funcs
+        }
+        if(line[0]->value == "if"){
+            //parse if
+        }
+        if(line[0]->value == "while"){
+            //while
+        }
+    }
+    
+}
+
+Node* Parser::p_dec(){
+    
+}

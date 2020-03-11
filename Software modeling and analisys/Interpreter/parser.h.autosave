@@ -1,0 +1,19 @@
+#ifndef PARSER_H
+#define PARSER_H
+
+#include <QMainWindow>
+#include <token.h>
+#include <node.h>
+
+class Parser
+{
+    QVector<QVector<Token*>> tokens;
+    QVector<Node*> tree;
+    Token current;
+public:
+    Parser();
+    void parse();
+    
+};
+
+#endif // PARSER_H

@@ -28,12 +28,18 @@ SOURCES += \
         main.cpp \
         mainwindow.cpp \
     token.cpp \
-    lexer.cpp
+    lexer.cpp \
+    parser.cpp \
+    node.cpp \
+    variable.cpp
 
 HEADERS += \
         mainwindow.h \
     token.h \
-    lexer.h
+    lexer.h \
+    parser.h \
+    node.h \
+    variable.h
 
 FORMS += \
         mainwindow.ui
